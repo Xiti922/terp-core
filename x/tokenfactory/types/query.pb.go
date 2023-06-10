@@ -339,7 +339,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("cosmwasm/tokenfactory/v1beta1/query.proto", fileDescriptor_d8606ce711f56ea6)
+	proto.RegisterFile("osmosis/tokenfactory/v1beta1/query.proto", fileDescriptor_d8606ce711f56ea6)
 }
 
 var fileDescriptor_d8606ce711f56ea6 = []byte{
@@ -547,7 +547,7 @@ var _Query_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "cosmwasm/tokenfactory/v1beta1/query.proto",
+	Metadata: "osmosis/tokenfactory/v1beta1/query.proto",
 }
 
 func (m *QueryParamsRequest) Marshal() (dAtA []byte, err error) {

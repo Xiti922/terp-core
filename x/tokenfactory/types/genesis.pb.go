@@ -151,7 +151,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("cosmwasm/tokenfactory/v1beta1/genesis.proto", fileDescriptor_b333539769138b3e)
+	proto.RegisterFile("osmosis/tokenfactory/v1beta1/genesis.proto", fileDescriptor_b333539769138b3e)
 }
 
 var fileDescriptor_b333539769138b3e = []byte{

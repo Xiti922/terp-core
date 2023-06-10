@@ -577,7 +577,7 @@ func init() {
 }
 
 func init() {
-	proto.RegisterFile("cosmwasm/tokenfactory/v1beta1/tx.proto", fileDescriptor_345508fcea0bfc02)
+	proto.RegisterFile("osmosis/tokenfactory/v1beta1/tx.proto", fileDescriptor_345508fcea0bfc02)
 }
 
 var fileDescriptor_345508fcea0bfc02 = []byte{
@@ -868,7 +868,7 @@ var _Msg_serviceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "cosmwasm/tokenfactory/v1beta1/tx.proto",
+	Metadata: "osmosis/tokenfactory/v1beta1/tx.proto",
 }
 
 func (m *MsgCreateDenom) Marshal() (dAtA []byte, err error) {
